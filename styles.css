@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding-top: 70px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left .logo {
+    height: 3.5rem;
+    width: auto;
+    margin-left: 4rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 3rem;
+    font-size: 1.3rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+nav ul li a:hover {
+    color: rgb(81, 255, 0);
+}
+
+.text-arab {
+    padding: 40px;
+    text-align: center;
+    font-size: 36px;
+    color: rgb(81, 255, 0);
+}
+
+.latar-belakang {
+    background-color: rgba(218, 218, 218, 0.185);
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 87rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: -18px;
+}
+
+.vertical-line {
+    width: 5px;
+    height: 30px;
+    background-color: rgb(81, 255, 0);
+    margin-top: 3em;
+    margin-left: 9em;
+}
+
+.vertical-line:before {
+    content: "KEGIATAN";
+    margin-left: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 70rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    margin: 20px;
+}
+
+.card2 img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.125rem;
+    padding: 20px;
+    width: 60%;
+}
+
+.card-body h3 {
+    margin-bottom: 15px;
+    font-size: 1.9rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container-utama {
+    display: flex;
+    justify-content: center;
+}
+
+.card-utama {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 84rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: -18px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.container {
+    display: flex;
+    justify-content:space-evenly; 
+    flex-wrap: wrap;  /* Membungkus jika tidak muat dalam satu baris */
+    margin-top: 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 27%;
+    margin: 0 -65px;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+  .card4 {
+    display: flex;
+    width: 73%;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    align-items: center;
+  }
+  
+  .card4 h3 {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 32px;
+    margin-left: 20px;
+  }
+  
+  .card4 p {
+    font-size: 14px;
+    text-align: left;
+    margin: 20px;
+  }
+
+  .lainnya-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  .lainnya {
+    background-color: #4CAF50;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none; 
+    outline: 2px solid #4CAF50;;
+  }
+  
+  .lainnya:hover {
+    background-color: #ffffff;
+    color: green;
+  }
+  
+  .tombol {
+    margin: -50px 50px 100px;
+  }
+  
+  .btn-bulat {
+    border-radius: 50%;
+    padding: 15px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-bulat:hover {
+    transform: scale(1.1); /* untuk memperbesar tombol */
+    background-color: #3e8e41;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  form {
+    float: right;
+    clear: none;
+  }
+  
+  footer {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    background-color: #dad9d9;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+ /* Media query untuk tampilan mobile */
+@media (max-width: 768px) {
+
+    /* Mengatur header agar tidak terlalu besar di layar kecil */
+    .navbar {
+        padding: 15px 10px;
+    }
+
+    .header-left .logo {
+        height: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .navbar.active ul {
+        display: flex;
+    }
+
+    .navbar::after {
+        content: '\2630';
+        font-size: 30px;
+        color: #333;
+        cursor: pointer;
+        display: block;
+        margin-right: 10px;
+        margin-top: -10px;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container-3 {
+        display: flex;
+        text-align: center;
+        margin-left: -5px;
+    }
+
+    .container-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card2 {
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .card2 img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card-body {
+        width: 100%;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .container-utama {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-utama {
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .tombol {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        clear: both; /* Menghapus pengaturan float */
+        width: 100%;
+    }
+
+    .btn-bulat {
+        margin-top: 20px;
+    }
+
+    
+}
